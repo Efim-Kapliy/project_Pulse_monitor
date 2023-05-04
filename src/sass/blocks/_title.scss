@@ -3,4 +3,12 @@
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;
+  text-transform: uppercase;
+  color: $text-color-negative;
+  &_left {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: left;
+    color: $text-color;
+  }
 }
