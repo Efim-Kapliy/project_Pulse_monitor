@@ -27,6 +27,7 @@ const slider = tns({
   autoplay: false,
   controls: false,
   nav: false,
+  autoHeight: true,
 });
 
 document.querySelector(".prev").addEventListener("click", function () {
