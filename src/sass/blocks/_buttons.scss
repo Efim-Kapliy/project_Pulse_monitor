@@ -8,6 +8,7 @@
   font-weight: 500;
   text-transform: uppercase;
   color: $text-color;
+  transition: 0.3s all;
   &:hover {
     color: $main-color-hover;
   }
