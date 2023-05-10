@@ -30,3 +30,27 @@
     }
   }
 }
+
+.tns-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18px;
+  margin-top: 9px;
+}
+
+.tns-outer {
+  [aria-controls] {
+    height: 16px;
+    margin-right: 6px;
+    border: 2px solid $main-color;
+    border-radius: 100%;
+    transition: 0.3s all;
+  }
+  [aria-controls]:nth-child(3) {
+    margin-right: 0;
+  }
+  [aria-controls]:hover {
+    background: rgb(221, 216, 216);
+  }
+}
