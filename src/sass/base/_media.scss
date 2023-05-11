@@ -42,6 +42,7 @@
     &__tab {
       &:hover {
         box-shadow: none;
+        border: 0.1em solid #d0d0d0;
       }
     }
     &-item {
@@ -107,6 +108,10 @@
   }
   .reviews {
     &-text {
+      &__subtitle {
+        margin-top: 6px;
+        font-size: 13px;
+      }
       &__main {
         font-size: 14px;
       }
@@ -233,9 +238,9 @@
         line-height: 15px;
       }
       &__subtitle {
-        margin-top: 6px;
-        font-size: 13px;
-        line-height: 13px;
+        margin-top: 3px;
+        font-size: 11px;
+        line-height: 12px;
       }
       &__main {
         font-size: 12px;
