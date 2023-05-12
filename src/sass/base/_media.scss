@@ -232,7 +232,7 @@
     }
   }
   .catalog {
-    padding-bottom: 83px;
+    padding: 45px 0 66px 0;
     &-item {
       min-height: 408px;
       &__wrapper {
@@ -395,10 +395,10 @@
     }
   }
   .carousel {
-    padding: 60px 0;
+    padding: 66px 0 18px 0;
     .tns-item {
       img {
-        max-width: 300px;
+        max-width: 306px;
       }
     }
   }

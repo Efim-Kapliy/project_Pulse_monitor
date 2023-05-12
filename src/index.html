@@ -47,7 +47,7 @@
           <button data-modal="consultation" class="button button_main">заказать консультацию</button>
           <div class="promo__link">
             или
-            <a href="#catalog"> ПЕРЕЙТИ В КАТАЛОГ</a>
+            <a href="#link-catalog"> ПЕРЕЙТИ В КАТАЛОГ</a>
           </div>
         </div>
       </div>
@@ -97,7 +97,7 @@
         </div>
         <form id="consultation-form" class="feed-form" action="#">
           <input name="name" placeholder="Ваше имя" type="text" />
-          <input name="phone" placeholder="Ваш телефон" type="number" />
+          <input name="phone" placeholder="Ваш телефон" />
           <input name="email" placeholder="Ваш E-mail" type="email" />
           <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
         </form>
@@ -126,9 +126,9 @@
       </div>
     </section>
 
-    <section class="catalog">
+    <section class="catalog" id="link-catalog">
       <div class="container">
-        <h2 class="title" id="catalog">Каталог пульсометров</h2>
+        <h2 class="title">Каталог пульсометров</h2>
         <ul class="catalog__tabs">
           <li class="catalog__tab catalog__tab_active"><div>Для фитнеса</div></li>
           <li class="catalog__tab"><div>для бега</div></li>
@@ -512,7 +512,7 @@
         <div class="modal__description">и мы перезвоним вам в течении 10 минут</div>
         <form class="feed-form" action="#">
           <input name="name" placeholder="Ваше имя" type="text" />
-          <input name="phone" placeholder="Ваш телефон" type="number" />
+          <input name="phone" placeholder="Ваш телефон" />
           <input name="email" placeholder="Ваш E-mail" type="email" />
           <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
         </form>
@@ -523,7 +523,7 @@
         <div class="modal__description">Пульсометр Polar FT1</div>
         <form class="feed-form" action="#">
           <input name="name" placeholder="Ваше имя" type="text" />
-          <input name="phone" placeholder="Ваш телефон" type="number" />
+          <input name="phone" placeholder="Ваш телефон" />
           <input name="email" placeholder="Ваш E-mail" type="email" />
           <button class="button button_submit">купить</button>
         </form>
@@ -542,6 +542,7 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"
     ></script>
     <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

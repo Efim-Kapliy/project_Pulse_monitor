@@ -64,6 +64,8 @@ $(document).ready(function () {
   valideForms("#consultation-form");
   valideForms("#consultation form");
   valideForms("#order form");
+
+  $("input[name=phone]").mask("+7 (999) 999-9999");
 });
 
 const slider = tns({
