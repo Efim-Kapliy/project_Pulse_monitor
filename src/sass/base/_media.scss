@@ -473,4 +473,32 @@
       }
     }
   }
+  .modal {
+    padding: 24px 12px 24px 12px;
+    width: 320px;
+    min-height: 341px;
+    &__subtitle {
+      font-size: 16px;
+      line-height: 21px;
+    }
+    &__description {
+      font-size: 12px;
+    }
+    .feed-form {
+      margin: 0 auto;
+      margin-top: 12px;
+      width: 288px;
+      input {
+        margin-bottom: 12px;
+      }
+    }
+    .button_submit {
+      margin-top: 12px;
+    }
+    &__close {
+      top: 5px;
+      right: 5px;
+      transform: translateX(0%);
+    }
+  }
 }
