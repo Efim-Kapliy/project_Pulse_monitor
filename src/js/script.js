@@ -39,6 +39,31 @@ $(document).ready(function () {
       $(".overlay, #order").fadeIn(333);
     });
   });
+
+  //Validate
+  function valideForms(form) {
+    $(form).validate({
+      rules: {
+        name: "required",
+        phone: "required",
+        email: {
+          required: true,
+          email: true,
+        },
+      },
+      messages: {
+        name: "Пожалуйста, введите своё имя",
+        phone: "Пожалуйста, введите свой номер телефона",
+        email: {
+          required: "Пожалуйста, введите свою почту",
+          email: "Неправильно введён адрес почты",
+        },
+      },
+    });
+  }
+  valideForms("#consultation-form");
+  valideForms("#consultation form");
+  valideForms("#order form");
 });
 
 const slider = tns({

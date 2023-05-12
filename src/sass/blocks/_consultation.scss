@@ -9,4 +9,14 @@
     font-weight: 500;
     color: $text-color;
   }
+  .error {
+    border: 1px solid red;
+  }
+  label.error {
+    border: none;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 12px;
+    color: rgb(231, 3, 3);
+  }
 }
