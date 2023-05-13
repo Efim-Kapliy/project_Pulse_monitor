@@ -500,5 +500,9 @@
       right: 5px;
       transform: translateX(0%);
     }
+    &_mini {
+      padding: 33px 12px 24px 12px;
+      min-height: 120px;
+    }
   }
 }
