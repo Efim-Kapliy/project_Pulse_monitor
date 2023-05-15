@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css" />
+    <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
@@ -28,23 +29,38 @@
         </header>
 
         <div class="promo__wrapper">
-          <h1 class="promo__header">Подбор пульсометра</h1>
+          <h1 class="promo__header animate__animated animate__flipInX wow">Подбор пульсометра</h1>
           <h2 class="promo__subheader">с учётом Вашего уровня подготовки</h2>
           <div class="promo__icons">
-            <div class="promo__icon">
+            <div
+              class="promo__icon animate__animated animate__fadeIn wow"
+              data-wow-duration="1.0s"
+              data-wow-delay="0.6s"
+            >
               <img src="icons/main/timer.png" alt="timer" />
               Время подбора: 10 минут
             </div>
-            <div class="promo__icon">
+            <div
+              class="promo__icon animate__animated animate__fadeIn wow"
+              data-wow-duration="1.0s"
+              data-wow-delay="0.8s"
+            >
               <img src="icons/main/delivery.png" alt="delivery" />
               Бесплатная доставка
             </div>
-            <div class="promo__icon">
+            <div class="promo__icon animate__animated animate__fadeIn wow" data-wow-duration="1.0s" data-wow-delay="1s">
               <img src="icons/main/messages.png" alt="messages" />
               Ответим на все вопросы
             </div>
           </div>
-          <button data-modal="consultation" class="button button_main">заказать консультацию</button>
+          <button
+            data-modal="consultation"
+            class="button button_main animate__animated animate__pulse wow"
+            data-wow-duration="1.2s"
+            data-wow-delay="1.2s"
+          >
+            заказать консультацию
+          </button>
           <div class="promo__link">
             или
             <a href="#link-catalog"> ПЕРЕЙТИ В КАТАЛОГ</a>
@@ -54,7 +70,7 @@
     </section>
 
     <section class="advantages advantages_style">
-      <div class="container">
+      <div class="container animate__animated animate__fadeInLeft wow" data-wow-duration="1.5s" data-wow-delay="0.1s">
         <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
         <div class="advantages__items">
           <div class="advantages__item">
@@ -66,7 +82,7 @@
             </div>
           </div>
           <div class="advantages__item">
-            <img src="icons/advantages/heart.png" alt="heart" />
+            <img src="icons/advantages/heart.png" alt="heart" class="advantages__icon advantages__icon_animated" />
             <div class="advantages__title">Заботимся о здоровье</div>
             <div class="advantages__description">
               Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и
@@ -86,7 +102,7 @@
     </section>
 
     <section class="consultation">
-      <div class="container">
+      <div class="container animate__animated animate__fadeInRight wow" data-wow-duration="1.5s" data-wow-delay="0.1s">
         <h2 class="title title_left">
           Получите бесплатную консультацию<br />
           по подбору пульсометра
@@ -105,7 +121,7 @@
     </section>
 
     <section class="carousel">
-      <div class="container">
+      <div class="container animate__animated animate__fadeInLeft wow" data-wow-duration="1.5s" data-wow-delay="0.1s">
         <div class="carousel__inner">
           <div>
             <img src="img/carousel/main_polar.jpg" alt="main polar" />
@@ -127,7 +143,7 @@
     </section>
 
     <section class="catalog" id="link-catalog">
-      <div class="container">
+      <div class="container animate__animated animate__fadeIn wow" data-wow-duration="1.2s" data-wow-delay="0.3s">
         <h2 class="title">Каталог пульсометров</h2>
         <ul class="catalog__tabs">
           <li class="catalog__tab catalog__tab_active"><div>Для фитнеса</div></li>
@@ -431,9 +447,15 @@
 
     <section class="reviews">
       <div class="container">
-        <div class="title">отзывы клиентов</div>
+        <div class="title animate__animated animate__fadeIn wow" data-wow-duration="1.2s" data-wow-delay="0.3s">
+          отзывы клиентов
+        </div>
         <div class="reviews__items">
-          <div class="reviews-item">
+          <div
+            class="reviews-item animate__animated animate__fadeInUp wow"
+            data-wow-duration="0.9s"
+            data-wow-delay="0.3s"
+          >
             <div class="reviews-item__img"><img src="img/reviews/circle_irina.png" alt="Irina's review" /></div>
             <div class="reviews-text">
               <div class="reviews-text__title">Ирина Иванченко</div>
@@ -450,7 +472,11 @@
             </div>
           </div>
           <hr />
-          <div class="reviews-item">
+          <div
+            class="reviews-item animate__animated animate__fadeInUp wow"
+            data-wow-duration="0.9s"
+            data-wow-delay="0.4s"
+          >
             <div class="reviews-item__img"><img src="img/reviews/circle_ivan.png" alt="Ivan's review" /></div>
             <div class="reviews-text">
               <div class="reviews-text__title">Иван Сёмочкин</div>
@@ -465,7 +491,11 @@
             </div>
           </div>
           <hr />
-          <div class="reviews-item">
+          <div
+            class="reviews-item animate__animated animate__fadeInUp wow"
+            data-wow-duration="0.9s"
+            data-wow-delay="0.5s"
+          >
             <div class="reviews-item__img"><img src="img/reviews/circle_julia.png" alt="Julia's review" /></div>
             <div class="reviews-text">
               <div class="reviews-text__title">Юлия Дашкина</div>
@@ -498,9 +528,25 @@
         <address class="footer__address">Москва, Мясницкий проезд, д.3с1</address>
         <a href="tel:84999228974" class="footer__phone">8 (499) 922-89-74</a>
         <div class="footer__social">
-          <a href="#" class="footer__social-item"><img src="icons/social/facebook.svg" alt="facebook" /></a
-          ><a href="#" class="footer__social-item"><img src="icons/social/instagram.svg" alt="instagram" /></a
-          ><a href="#" class="footer__social-item"><img src="icons/social/pinterest.svg" alt="pinterest" /></a>
+          <a
+            href="#"
+            class="footer__social-item animate__animated animate__headShake wow"
+            data-wow-duration="1.5s"
+            data-wow-delay="0.3s"
+            ><img src="icons/social/facebook.svg" alt="facebook" /></a
+          ><a
+            href="#"
+            class="footer__social-item animate__animated animate__headShake wow"
+            data-wow-duration="1.5s"
+            data-wow-delay="0.3s"
+            ><img src="icons/social/instagram.svg" alt="instagram" /></a
+          ><a
+            href="#"
+            class="footer__social-item animate__animated animate__headShake wow"
+            data-wow-duration="1.5s"
+            data-wow-delay="0.3s"
+            ><img src="icons/social/pinterest.svg" alt="pinterest"
+          /></a>
         </div>
       </div>
     </footer>
@@ -547,6 +593,7 @@
     ></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
