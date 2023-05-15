@@ -93,11 +93,13 @@ $(document).ready(function () {
     }
   });
 
-  $("a[href^='#']").click(function () {
+  $("a[href=#upArrow]").click(function () {
     const _href = $(this).attr("href");
+    $("html, body").animate({ scrollTop: $(_href).offset().top + "px" });
+    return false;
   });
-  $("html, body").animate({ scrollTop: $(_href).offset().top + "px" });
-  return false;
+
+  new WOW().init();
 });
 
 const slider = tns({
@@ -124,5 +126,3 @@ document.querySelector(".prev").addEventListener("click", function () {
 document.querySelector(".next").addEventListener("click", function () {
   slider.goTo("next");
 });
-
-new WOW().init();

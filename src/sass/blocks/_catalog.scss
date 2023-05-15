@@ -145,22 +145,26 @@
         transform: translateX(-100%);
         margin-left: 0px;
       }
-      li {
-        position: relative;
-        width: 237px;
-        color: #555555;
-        font-size: 14px;
-        font-weight: 300;
-        text-align: left;
-        margin-bottom: 18px;
-        &::before {
-          content: "";
-          position: absolute;
-          width: 5px;
-          height: 5px;
-          background-color: $main-color;
-          left: -17px;
-          top: 8px;
+      ul {
+        padding: 0;
+        list-style-type: none;
+        li {
+          position: relative;
+          width: 237px;
+          color: #555555;
+          font-size: 14px;
+          font-weight: 300;
+          text-align: left;
+          margin-bottom: 18px;
+          &::before {
+            content: "";
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background-color: $main-color;
+            left: -17px;
+            top: 8px;
+          }
         }
       }
     }

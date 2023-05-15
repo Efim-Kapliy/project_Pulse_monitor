@@ -55,11 +55,13 @@
       }
       &__list {
         padding-right: 12px;
-        li {
-          margin-bottom: 15px;
-          width: 186px;
-          font-size: 13px;
-          line-height: 18px;
+        ul {
+          li {
+            margin-bottom: 15px;
+            width: 186px;
+            font-size: 13px;
+            line-height: 18px;
+          }
         }
       }
       &__back {
