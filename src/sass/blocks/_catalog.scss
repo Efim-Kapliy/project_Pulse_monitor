@@ -53,6 +53,10 @@
     min-height: 440px;
     border: 2px solid $border-color;
     margin-bottom: 21px;
+    &:hover {
+      box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.4);
+      border-color: rgba($color: $border-color, $alpha: 0);
+    }
     img {
       margin: 0 auto;
       display: block;

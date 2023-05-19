@@ -3,6 +3,9 @@
   .next {
     display: none;
   }
+  .tns-nav {
+    display: flex;
+  }
 }
 
 @media (max-width: 991px) {
@@ -49,6 +52,10 @@
       padding: 9px 12px 9px 12px;
       width: 243px;
       min-height: 414px;
+      &:hover {
+        box-shadow: none;
+        border-color: rgba($color: $border-color, $alpha: 1);
+      }
       &__wrapper {
         min-height: 315px;
         width: calc(200% + 24px);
