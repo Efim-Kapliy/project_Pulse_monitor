@@ -1,5 +1,5 @@
 {
-  "name": "uber_course",
+  "name": "run-smart",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.29.1",
+    "browser-sync": "^2.29.3",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",

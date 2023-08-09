@@ -3,6 +3,10 @@
 # layout
 /layout
 
+# mailer
+/dist/mailer
+/src/mailer
+
 # dependencies
 /node_modules
 
